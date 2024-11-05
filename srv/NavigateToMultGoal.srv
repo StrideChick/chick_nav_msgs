@@ -1,1 +1,4 @@
-
+uint32 waypoint_id
+geometry_msgs::msg::PoseArray poses
+---
+bool goal_reached
