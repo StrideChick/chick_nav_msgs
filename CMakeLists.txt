@@ -8,6 +8,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   # "action/NavigateToGoal.action"
   # "msg/Waypoints.msg"
   "srv/NavigateToGoal.srv"
+  "srv/NavigateToMultGoal.srv"
   DEPENDENCIES builtin_interfaces std_msgs geometry_msgs nav_msgs
 )
 
